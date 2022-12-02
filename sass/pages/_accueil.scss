@@ -12,17 +12,32 @@ main{
     background-color: $colour-secondary;
 }
 
-.main__affiche {
+.main__presentation {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     padding: 25px 15px;
     background-color: $colour-secondary;
     row-gap: 15px;
     text-align: center;
 }
 
+.contain__tessa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, $colour-secondary , $colour-primary );
+    border-radius: 40px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 320px;
+    box-shadow: 0px 0px 20px 0px rgb(0, 0, 0);
+}
+
 .Tessa{
     width: 300px;
+    border-radius: 30px;
+    object-fit: cover;
 }
