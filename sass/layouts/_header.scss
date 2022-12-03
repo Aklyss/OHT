@@ -1,3 +1,27 @@
+header{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 17px 0px rgb(167, 135, 114);
+}
+
+nav{
+    font-size: 25px;
+    background-color: $colour-secondary;
+    border: solid 1px $colour-primary ;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-right: 5%;
+    box-shadow: 0 1px 10px 0px rgb(167, 135, 114);
+}
+
+.blank{
+    height: 70px;
+}
 
 .header__box{
     display: flex;

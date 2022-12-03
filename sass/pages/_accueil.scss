@@ -2,25 +2,33 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 18px 0 18px 0;
+    padding: 10px 0px 10px 0;
     background-color:$colour-secondary;
     font-size: 20px;
-    box-shadow: inset 0 5px 17px 0px rgb(167, 135, 114);
+    margin: 0 -40px;
+    box-shadow: 0 5px 17px 0px rgb(167, 135, 114);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 main{
-    background-color: $colour-secondary;
+    background-color: rgb(250, 236, 229);
+    padding: 0 10%;
+    padding-bottom: 10%;
 }
 
-.main__presentation {
+.main__section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 25px 15px;
-    background-color: $colour-secondary;
+    background: linear-gradient(to bottom right, $colour-secondary , $colour-primary );
     row-gap: 15px;
     text-align: center;
+    margin-top: 40px;
+    box-shadow: inset 0 5px 17px 0px rgb(167, 135, 114);
+    border-radius: 20px;
 }
 
 .contain__tessa{

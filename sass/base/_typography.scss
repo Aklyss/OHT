@@ -29,7 +29,7 @@ a{
 
 .a{
     color: white;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .fa-location-dot{
@@ -37,10 +37,18 @@ a{
     margin-right:15px;
 }
 
-.fa-arrow-left{
+.fa-light{
+    font-size: 40px;
+}
+
+.fa-brands{
     font-size: 30px;
-    position: absolute;
-    left: 30px;
-    top: 25px;
-    color: rgb(54, 54, 54);
+}
+
+.fa-solid{
+    margin-right: 10px;
+}
+
+li{
+    font-size: 25px;
 }
